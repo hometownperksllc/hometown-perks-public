@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import ServicePage, { Action } from "../components/ServicePage";
+export const metadata: Metadata = { title: "For Local Businesses" };
+export default function Page() { return <ServicePage title="For Local Businesses" intro="Explore ways to connect your business with local customers."><h2 className="text-2xl font-semibold">Choose what works for your business</h2><p>Learn about <a className="underline" href="/advertising">local advertising</a>, <a className="underline" href="/connect-plate">Connect Plates</a>, and the <a className="underline" href="/gift-cards">community gift-card program</a>.</p><p>Our advertising network is preparing to launch. Register your interest in the planned $149/month package. Community gift-card participation is separate from paid advertising; contact us for program details.</p><Action href="/merchant-signup">Become a Founding Advertiser</Action></ServicePage>; }
