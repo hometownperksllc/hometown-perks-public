@@ -1,18 +1,18 @@
 const steps = [
   {
     number: "01",
-    title: "Join the local network",
-    text: "Businesses can join Hometown Perks to be part of the community gift card and local promotion network.",
+    title: "Register your interest",
+    text: "Tell us about your business and advertising goals. No payment or subscription is required to express interest.",
   },
   {
     number: "02",
-    title: "Get promoted locally",
-    text: "Your business can be featured through digital screens, printed placements, Connect Plates, and online campaigns.",
+    title: "Confirm your launch package",
+    text: "We will confirm active screen locations, ad details, and service terms before your campaign starts.",
   },
   {
     number: "03",
-    title: "Bring customers back",
-    text: "Hometown Perks helps keep local dollars in the community while giving customers more reasons to shop local.",
+    title: "Go live when screens are ready",
+    text: "Once your ad is approved and playing on the agreed screens, your advertising service and billing begin.",
   },
 ];
 

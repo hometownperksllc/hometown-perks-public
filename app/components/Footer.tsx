@@ -71,7 +71,7 @@ export default function Footer() {
           </p>
 
           <a
-            href="https://portal.hometownperksusa.com"
+            href="https://portal.hometownperksusa.com/login"
             className="inline-flex rounded-xl bg-white px-5 py-3 font-semibold text-[#050816]"
           >
             Merchant Login

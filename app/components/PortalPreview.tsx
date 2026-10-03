@@ -18,9 +18,7 @@ export default function PortalPreview() {
           </h2>
 
           <p className="mt-6 max-w-xl text-lg leading-8 text-white/65">
-            Merchants can submit ad requests, track campaign progress, view
-            promotion status, and stay connected with Hometown Perks from one
-            easy portal.
+            Our merchant portal is being prepared to support advertising requests and campaign management. The preview shows example data, not active campaigns or installed locations.
           </p>
         </div>
 
@@ -28,7 +26,7 @@ export default function PortalPreview() {
           <div className="rounded-[1.5rem] border border-white/10 bg-[#0b1020] p-5">
             <div className="mb-6 flex items-center justify-between border-b border-white/10 pb-4">
               <div>
-                <p className="text-sm text-white/40">Portal Preview</p>
+                <p className="text-sm text-white/40">Portal Preview · Example data</p>
                 <h3 className="text-xl font-bold">Merchant Dashboard</h3>
               </div>
 

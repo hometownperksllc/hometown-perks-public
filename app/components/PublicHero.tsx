@@ -6,17 +6,15 @@ export default function PublicHero() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-2">
         <div>
           <div className="mb-6 inline-flex rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm text-white/80">
-            Local Gift Cards • Advertising • Merchant Tools
+            Local Advertising Network • Preparing to Launch
           </div>
 
           <h1 className="max-w-3xl text-5xl font-bold tracking-tight md:text-7xl">
-            Grow Local Business With Hometown Perks
+            Get Ready to Grow With Hometown Perks
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-            Hometown Perks helps local businesses get discovered through
-            community gift cards, digital advertising, Connect Plates, and
-            simple merchant promotion tools.
+            We are preparing our local screen advertising network. Register your interest in our planned $149/month advertising package, with an optional Connect Plate add-on. Billing starts when your ad goes live.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -24,14 +22,14 @@ export default function PublicHero() {
               href="/merchant-signup"
               className="rounded-xl bg-white px-6 py-4 text-center font-semibold text-[#050816]"
             >
-              Become a Merchant
+              Become a Founding Advertiser
             </a>
 
             <a
               href="/gift-cards"
               className="rounded-xl border border-white/20 bg-white/10 px-6 py-4 text-center font-semibold text-white"
             >
-              Buy Local Gift Cards
+              Explore Community Gift Cards
             </a>
           </div>
         </div>
@@ -41,7 +39,7 @@ export default function PublicHero() {
             <h3 className="text-xl font-semibold">Merchant Dashboard</h3>
 
             <span className="rounded-full bg-green-400/20 px-3 py-1 text-sm text-green-300">
-              Live
+              Example
             </span>
           </div>
 
@@ -63,8 +61,8 @@ export default function PublicHero() {
           </div>
 
           <div className="mt-8 grid grid-cols-3 gap-3">
-            <Stat number="20+" label="Screens" />
-            <Stat number="24/7" label="Promo" />
+            <Stat number="TV" label="Advertising" />
+            <Stat number="QR/NFC" label="Connect Plates" />
             <Stat number="1" label="Platform" />
           </div>
         </div>
