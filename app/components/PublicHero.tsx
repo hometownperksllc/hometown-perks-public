@@ -14,7 +14,7 @@ export default function PublicHero() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
-            We are preparing our local screen advertising network. Register your interest in our planned $149/month advertising package, with an optional Connect Plate add-on. Billing starts when your ad goes live.
+            We are preparing our local screen advertising network. Register your interest in our planned $149/month advertising package, with an optional Connect Plate add-on. When paid enrollment opens, $149 is paid upfront for your first 30 calendar days of advertising. The 30-day period begins when your approved ad goes live. After that, $149 monthly renewals require your separate authorization.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
