@@ -12,7 +12,7 @@ const steps = [
   {
     number: "03",
     title: "Go live when screens are ready",
-    text: "Once your ad is approved and playing on the agreed screens, your advertising service and billing begin.",
+    text: "Your $149 upfront payment covers 30 calendar days starting when your approved ad goes live. Later $149 monthly renewals require your separate authorization.",
   },
 ];
 
