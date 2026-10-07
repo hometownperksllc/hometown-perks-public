@@ -9,7 +9,7 @@ export default function PublicHero() {
             Local Advertising Network • Preparing to Launch
           </div>
 
-          <h1 className="max-w-3xl text-5xl font-bold tracking-tight md:text-7xl">
+          <h1 className="max-w-3xl text-4xl sm:text-5xl font-bold tracking-tight md:text-7xl">
             Get Ready to Grow With Hometown Perks
           </h1>
 
@@ -35,7 +35,7 @@ export default function PublicHero() {
         </div>
 
         <div className="rounded-3xl border border-white/15 bg-white/10 p-6 shadow-2xl backdrop-blur">
-          <div className="mb-6 flex items-center justify-between">
+          <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
             <h3 className="text-xl font-semibold">Merchant Dashboard</h3>
 
             <span className="rounded-full bg-green-400/20 px-3 py-1 text-sm text-green-300">
@@ -60,7 +60,7 @@ export default function PublicHero() {
             />
           </div>
 
-          <div className="mt-8 grid grid-cols-3 gap-3">
+          <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
             <Stat number="TV" label="Advertising" />
             <Stat number="QR/NFC" label="Connect Plates" />
             <Stat number="1" label="Platform" />
@@ -83,7 +83,7 @@ function DashboardRow({
       <div className="flex justify-between gap-4">
         <span>{title}</span>
 
-        <span className="text-sm text-white/60">
+        <span className="shrink-0 text-sm text-white/60">
           {status}
         </span>
       </div>
